@@ -1,0 +1,83 @@
+/* Apply styles to the body */
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the container */
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+}
+
+/* Style the header */
+.header {
+    margin-bottom: 30px;
+}
+
+/* Style the h1 element */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Style the hr element */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Style the input field */
+input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Style the QR code div */
+.qrcode>img {
+    margin: 20px auto;
+    /* Center the QR code horizontally */
+    text-align: center;
+    /* Center QR code content */
+}
+
+/* Style the button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3;
+}
